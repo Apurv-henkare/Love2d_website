@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        
+        <title>Resume</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c2231f2cbc.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                     <ul id="sidemenu" onclick="cl()">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Resources">Resources</a></li>
+                        <li><a href="#GameDevUtopia">GameDevUtopia</a></li>
+                        <li><a href="#Games">Games</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                     </ul>
+
+                     <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p><b>Love2d Framework</b></p>
+                    <h1>For Building 2D Games</h1>
+                </div>
+            </div>
+        </div>
+
+        <!--about-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <h1>
+                            
+                            <img src="images/nopng.png">
+                        </h1>
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About:</h1>
+                        <p>
+                            Hi there! LÖVE is an *awesome* framework you can use to make 2D games in Lua. It's free, open-source, and works on Windows, Mac OS X, Linux, Android and iOS.
+                        </p>
+
+                        <br>
+                        <p>
+                            The engine is written in C++ and uses <b class="bold">Lua</b> as its scripting language. It is published under the zlib license.
+
+                            The API provided by the engine gives access to the video and sound functions of the host machine through the libraries SDL and OpenGL, or since version 0.10 also OpenGL ES 2 and 3.[3] Fonts can be rendered by the FreeType engine
+                        </p>
+                        <br>
+                        <p>
+                            For More Informations Visit:
+                        </p>
+                        <br>
+                        <div class="tab-titles">
+                            <p class="tab-links">
+                                <a style="color:orange"href="https://love2d.org/">
+                                    Love2d
+                                </a>
+                            </p>
+                            <p class="tab-links">
+                                <a  style="color:orange" href="https://en.wikipedia.org/wiki/L%C3%B6ve_(game_engine)">
+                                    Wipikepia
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Resources-->
+        <div id="Resources">
+            <div class="container">
+                <h1 class="subtitle">
+                    Resources
+                </h1>
+                <div class="Resources-list">
+                    <div>
+                        <h2>
+                            CS50 Game Development
+                        </h2>
+                        <p>
+                            This course picks up where Harvard University's CS50 leaves off, focusing on the development of 2D interactive games
+                        </p>
+                        <br>
+                        <p>
+                            Students explore the design of such childhood games as Super Mario Bros., Legend of Zelda, and Pokémon in a quest to understand how video games themselves are implemented
+                        </p>
+                        <br>
+
+                        <a href="https://www.youtube.com/watch?v=b16rgLIf8I4&list=PLhQjrBD2T383Vx9-4vJYFsJbvZ_D17Qzh">Learn More</a>
+                    </div>
+                    <div>
+                        <h2>
+                            Free-Code-Camp
+                        </h2>
+                        <p>
+                            Learn how to create games using LÖVE 2D and Lua. LÖVE is a framework you can use to make 2D games in Lu
+                        </p>
+                        <br>
+
+                        <p>
+                            It's free, open-source, and works on Windows, Mac OS X, Linux, Android and iOS. In this course, you will first learn how to program in Lua. Then you will learn how to use Love2D with Lua to develop amazing games
+                        </p>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=I549C6SmUnk&t=7996s"  >Learn More</a>
+                    </div>
+
+                    <div>
+                        <h2>
+                            Simple-Game_Tutorials
+                        </h2>
+                        <p>
+                            Do you know some programming basics, but don't quite know how to go about making something game-like yet? If so, these tutorials are for you
+                        </p>
+                        <br>
+                        <p>
+                            These tutorials build up the code from scratch, step-by-step, and you can follow along by typing in the code and seeing the results after each step
+                        </p>
+                        <br>
+                        <a href="https://simplegametutorials.github.io/love/">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <!--Community-->
+        <div id="GameDevUtopia">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img style="width:300px;padding:20px"src="images/GDU.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 style="color:orange">GameDevUtopia</h1>
+                        <br>
+                        <p>
+                            Aim to develop a community of people who are enthusiastic for developing video-games.
+
+                        </p>
+                        <br>
+                        <p>
+                        make them aware about the domain of Game Development, and realize its importance as a flourishing industry
+                        </p>
+                        <br>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Cofounders')">Cofounders </p>
+                            <p class="tab-links " onclick="opentab('Employees')">Council</p>
+                            <p class="tab-links" onclick="opentab('Achievements')">Achievements </p>
+                            <p class="tab-links" onclick="opentab('Branches')">Branches</p>
+                        </div>
+                        
+                        <div class="tab-contents active-tab" id="Cofounders">
+                            <ul>
+                                <li><span><b>Apurv Henkare:</b></span><br></li>
+                                <li><span><b>Mihir Ranade:</b></span><br></li>
+                                <li><span><b>Prajwal Pawar:</b></span><br></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="Employees">
+                            <ul>
+                                <li><span><b>President:</b></span><br>Harsh Jain</li>
+                                <li><span><b>Secretary:</b></span><br>Reet Khare</li>
+                                <li><span><b>Coding Team:</b></span><br>Malhar Choure, Yash Bodke</li>
+                                <li><span><b>Design Team</b></span><br>Chinmay Surve, Swayam Boob</li>
+                                <li><span><b>Unity Team</b></span><br>Tejas Benkule, Ayush Gupta</li>
+                                <li><span><b>Marketing Team</b></span><br>Madhur Mundada, Yash Desai</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Achievements">
+                            <ul>
+                                <li><span><b>Linkedin:</b></span><br><a  style="color:gray"href="https://www.linkedin.com/company/gamedevutopia/mycompany/">GameDevUtopia</a></li>
+                                
+                                <li><span><b>Instagram:</b></span><br><a  style="color:gray"href="https://www.instagram.com/gamedevutopia/">GameDevUtopia</a></li>
+
+                                <li><span><b>Twitter:</b></span><br><a  style="color:gray"href="https://twitter.com/GameDevUtopia1">GameDevUtopia</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Branches">
+                            <ul>
+                                <p>
+                                    GameDevUtopia are extremely thrilled to announce our collaboration with IIIT Kottayam's Beta Labs for the initiation of <b style="color:darkorange">' GameDevUtopia ' Student-Chapter IIIT Kottayam.</b>
+
+                                </p>
+                                <br>
+                                <p>
+                                    We welcome our new counterparts at Beta Labs with open arms, warm hearts, and a fired-up enthusiasm!
+
+                                </p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="Games">
+            <div class="container">
+                <h1 class="subtitle">
+                    Games
+                </h1>
+                <div class="Resources-list">
+                    <div>
+                        <img style="padding:0px 30px" src="images/charter.png">
+                        <br>
+                        <h2>
+                            Charter Yacht
+                        </h2>
+                        <p>
+                            Follow Yacht's Adventure to the ports in deep and treacherous seas and complete the challenges!
+                        </p>
+                        <br>
+                        <p>
+                            Unlock Ranks By Earning Points.
+                        </p>
+                        <br>
+
+                        <a href="https://teams24.itch.io/charter-yacht">Learn More</a>
+                    </div>
+                    <div>
+                        <img style="padding:0px 30px"src="images/Arise.png">
+                        <h2>
+                            Arise
+                        </h2>
+                        <p>
+                          You have risen from your grave to find your nemesis ,the Jack-o-lanterns , roaming and  keeping guard, evade them to find your freedom
+                        </p>
+                        <br>
+
+                        <p>
+                            Game was inspired by Dangerous Dave.
+                        </p>
+                        <br>
+                        <a href="https://proudly-prajwal.itch.io/arise"  >Learn More</a>
+                    </div>
+                         
+                    <div>
+                        <img style="padding:0px 30px" src="images/Vibo.png">
+                        <h2>
+                            Vibora
+                        </h2>
+                        <p>
+                            The Vibora Game is basically a replica of snake game. Taking steps from the
+                            classic Snake Game but with a potent and clever enemy alike which targets your
+                            food and life even if it means its demise.
+                        </p>
+                        <br>
+                    
+                        <p>
+                            Get your snake rolling and bring your
+                            best arcade skills to get survive and thrive.
+                        </p>
+                        <br>
+        
+                        <br>
+                        <a href="https://teams24.itch.io/vibora-game">Learn More</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <script>
+             var tablinks=document.getElementsByClassName("tab-links");
+             var tabcontents=document.getElementsByClassName("tab-contents");
+
+             function opentab(tabname)
+             {
+                for(tablink of tablinks)
+                {
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents)
+                {
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+             }
+        </script>
+
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+
+            function openmenu()
+            {
+                sidemenu.style.right="0";
+            } 
+            function closemenu()
+            {
+                sidemenu.style.right="-280px";
+            }
+
+            function cl()
+            {
+                sidemenu.style.right="-280px";
+            }
+        </script>
+
+
+    </body>
+</html>
